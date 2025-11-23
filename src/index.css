@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Roboto+Slab:wght@400;700&family=Roboto:wght@400;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-serif: 'Cinzel', serif;
+  --font-slab: 'Roboto Slab', serif;
+  --font-sans: 'Pretendard', 'Roboto', sans-serif;
+
+  --color-deep-black: #0A0A0A;
+  --color-dark-grey: #1F1F1F;
+  --color-blood-red: #8B0000;
+  --color-electric-blue: #00FFFF;
+  --color-off-white: #E0E0E0;
+}
+
+@layer base {
+  body {
+    @apply bg-deep-black text-off-white font-sans antialiased;
+  }
+
+  h1,
+  h2,
+  h3 {
+    @apply font-serif;
+  }
+}
