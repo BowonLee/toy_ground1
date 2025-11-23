@@ -1,16 +1,46 @@
-# React + Vite
+# Frankenstein
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A gothic-themed movie landing page for Guillermo del Toro's 2025 adaptation of Frankenstein.
 
-Currently, two official plugins are available:
+## Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+"신이 되려 한 자 괴물이 될지니" - A beautifully designed promotional website showcasing the modern reimagining of Mary Shelley's classic novel with stunning visuals and atmospheric design.
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Image Carousels**: Dynamic background and book cover sliders
+- **Responsive Design**: Fully optimized for mobile, tablet, and desktop
+- **Gothic Aesthetics**: Dark, elegant theme with blood-red accents
+- **Modern Stack**: Built with React + Vite + Tailwind CSS
 
-## Expanding the ESLint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **React 19** - UI Framework
+- **Vite 7** - Build tool with HMR
+- **Tailwind CSS 4** - Utility-first CSS framework
+- **GitHub Pages** - Deployment
+
+## Getting Started
+
+```bash
+# Install dependencies
+npm install
+
+# Run development server
+npm run dev
+
+# Build for production
+npm run build
+
+# Deploy to GitHub Pages
+npm run deploy
+
+# Preview production build locally
+npm run preview
+```
+
+## Deployment
+
+This project is deployed to GitHub Pages at: https://bowonlee.github.io/toy_ground1/
+
+The `npm run deploy` command automatically builds the project and deploys it to the `gh-pages` branch.
